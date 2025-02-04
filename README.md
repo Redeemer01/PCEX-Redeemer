@@ -1,5 +1,5 @@
 # PCEX-Redeemer
-ThisWelcome to the Redeemer Bot! This application automates the process of redeeming codes from a Telegram group and submitting them on the PCEX website. Follow the steps below to set up and run the bot.
+Welcome to the Redeemer Bot! This application automates the process of redeeming codes from a Telegram group and submitting them on the PCEX website. Follow the steps below to set up and run the bot.
 # What You Need
 Before running the bot, ensure you have the following:
 
