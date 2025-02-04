@@ -10,6 +10,27 @@ Before running the bot, ensure you have the following:
 2. **License Key**: A valid license key is required to activate the bot. Contact me on [Telegram](https://t.me/Ali_Abbas_01) to get one.
 3. **Google Chrome**: The bot uses Google Chrome to interact with the PCEX website. Make sure Chrome is installed on your computer.
 4. **Environment File (.env)**: A file containing your API credentials and login details.
+## How It Works
+
+To begin using the script, ensure that it is running continuously, as it needs to remain active in order to redeem the code. After validating your key and logging in, the script will continuously monitor for eligible codes to redeem. As long as the script is running, it will automatically redeem any new codes it detects, ensuring you never miss an opportunity. Here's a step-by-step overview of the process:
+
+1. **Starting the Script:**  
+   When you launch the script, you will be prompted to enter your valid license key. This key is used to authenticate your session and ensure proper access.
+
+2. **Authentication via Telegram:**  
+   After entering the license key, the script will communicate with Telegram to send a one-time authentication code. This code serves as a security measure to verify your identity.
+
+3. **Login & Code Redemption:**  
+   Once the script detects the authentication code from Telegram, it will automatically launch the Chrome browser, **log in to your account using the <mark>.env file stored on your computer</mark>**, and proceed with redeeming the code.
+
+4. **Ending the Session:**  
+   After the redemption process is completed, the Chrome window will close, marking the end of the transaction.
+
+### Important Notes:
+- **Keep the script running** to ensure continuous code redemption.
+- Ensure that the Telegram authentication process completes successfully before relying on the script for automatic redemptions.
+
+By following these steps, you'll be able to redeem codes seamlessly without needing to manually intervene, as long as the script is running in the background.
 
 ## Setup Instructions
 
