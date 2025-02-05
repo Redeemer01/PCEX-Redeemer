@@ -9,16 +9,16 @@ Before running the bot, ensure you have the following:
 1. **Telegram Account**: You need a Telegram account to use this bot.
 2. **License Key**: A valid license key is required to activate the bot. Contact me on [Telegram](https://t.me/Ali_Abbas_01) to get one.
 3. **Google Chrome**: The bot uses Google Chrome to interact with the PCEX website. Make sure Chrome is installed on your computer.
-4. **Environment File (.env)**: A file containing your API credentials and login details.
+4. **Environment File (.env)**: A file containing your API credentials, login details and the **LICENSE KEY**.
 ## How It Works
 
 To begin using the script, ensure that it is running continuously, as it needs to remain active in order to redeem the code. After validating your key and logging in, the script will continuously monitor for eligible codes to redeem. As long as the script is running, it will automatically redeem any new codes it detects, ensuring you never miss an opportunity. Here's a step-by-step overview of the process:
 
 1. **Starting the Script:**  
-   When you launch the script, you will be prompted to enter your valid license key. This key is used to authenticate your session and ensure proper access.
+   When you launch the script, .env credentials will be used  to authenticate your session and ensure proper access.
 
 2. **Authentication via Telegram:**  
-   After entering the license key, the script will communicate with Telegram to send a one-time authentication code. This code serves as a security measure to verify your identity.
+   The script will communicate with Telegram to send a one-time authentication code. This code serves as a security measure to verify your identity from telegram API.
 
 3. **Login & Code Redemption:**  
    Once the script detects the authentication code from Telegram, it will automatically launch the Chrome browser, **log in to your account using the <mark>.env file stored on your computer</mark>**, and proceed with redeeming the code.
@@ -27,6 +27,7 @@ To begin using the script, ensure that it is running continuously, as it needs t
    After the redemption process is completed, the Chrome window will close, marking the end of the transaction.
 
 ### Important Notes:
+- *Make sure you download the latest version otherwise the script won't run*
 - **Keep the script running** to ensure continuous code redemption.
 - Ensure that the Telegram authentication process completes successfully before relying on the script for automatic redemptions.
 
@@ -43,7 +44,7 @@ Download and install Google Chrome from [here](https://www.google.com/chrome/).
 The bot requires a `.env` file to store your credentials safely. Follow these steps:
 
 1. Create a file named `.env` in the same folder where the `.exe` file is located.
-2. Open it using any text editor (e.g., Notepad, VS Code).
+2. Open it using any text editor (e.g., Notepad or VS Code).
 3. Copy and paste the following content into the file:
  ```
    API_ID=your_telegram_api_id
@@ -51,6 +52,7 @@ The bot requires a `.env` file to store your credentials safely. Follow these st
    PHONE_NUMBER=your_telegram_phone_number in this format +97312345678
    PCEX_USERNAME=your_pcex_email
    PCEX_PASSWORD=your_pcex_password
+   LICENSE_KEY=your key for the subscription
    ```
 
 4. Replace the placeholders with your actual credentials:
@@ -59,8 +61,7 @@ The bot requires a `.env` file to store your credentials safely. Follow these st
 ### 3. Run the Redeemer Bot
 
 - Double-click the `redeemer.exe` file to start the bot.
-- When prompted, enter your **license key** and press **Enter**.
-- If the license key is valid, the bot will start running.
+- If the license key and the version are valid, the bot will start running.
 
 ## Troubleshooting
 
