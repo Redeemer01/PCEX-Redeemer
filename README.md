@@ -30,6 +30,7 @@ To begin using the script, ensure that it is running continuously, as it needs t
 - *Make sure you download the latest version otherwise the script won't run*
 - **Keep the script running** to ensure continuous code redemption.
 - Ensure that the Telegram authentication process completes successfully before relying on the script for automatic redemptions.
+- The default method that the script sneds you sucess and failure messages is through saved messages, but saved messages does not trigger any kind of sound notification. If you want to get notifications send /start to @CallMeBot_txtbot in telegram in order to call you when the script fails to redeem the code, and send you sound notfifications.
 
 By following these steps, you'll be able to redeem codes seamlessly without needing to manually intervene, as long as the script is running in the background.
 
