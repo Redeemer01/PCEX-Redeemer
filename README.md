@@ -7,7 +7,7 @@ Welcome to the Redeemer Bot! This application automates the process of redeeming
 Before running the bot, ensure you have the following:
 
 1. **Telegram Account**: You need a Telegram account to use this bot.
-2. **License Key**: A valid license key is required to activate the bot. Contact me on [Telegram](https://t.me/Ali_Abbas_01) to get one.
+2. **License Key**: A valid license key is required to activate the bot. Contact me on [Telegram](https://t.me/Redeemer_010) to get one.
 3. **Google Chrome**: The bot uses Google Chrome to interact with the PCEX website. Make sure Chrome is installed on your computer.
 4. **Environment File (.env)**: A file containing your API credentials, login details and the **LICENSE KEY**.
 ## How It Works
@@ -66,7 +66,7 @@ The bot requires a `.env` file to store your credentials safely. Follow these st
 
 ## Troubleshooting
 
-If you encounter any issues, please contact me on [Telegram](https://t.me/Ali_Abbas_01).
+If you encounter any issues, please contact me on [Telegram](https://t.me/Redeemer_010).
 
 ## Disclaimer
 
